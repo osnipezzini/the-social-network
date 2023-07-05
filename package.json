@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@fontsource/abril-fatface": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}

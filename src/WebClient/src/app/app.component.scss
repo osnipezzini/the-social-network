@@ -1,0 +1,13 @@
+@use '@angular/material' as mat;
+@import '../themes.scss';
+@import '@fontsource/abril-fatface';
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.home-link {
+  text-decoration: none;
+  color: mat.get-color-from-palette($accent);
+  font-family: 'Abril Fatface', sans-serif;
+}
