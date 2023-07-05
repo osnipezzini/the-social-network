@@ -9,6 +9,8 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "WebClient", "WebClient\WebC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{DDF06E7A-AF64-4680-ADC3-A96DE2EB41C2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TSN.ChatServer", "ChatServer\TSN.ChatServer.csproj", "{9E39FDE4-4176-4478-9F98-6BEA1A1A4846}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +23,19 @@ Global
 		{00C28F45-6B2F-490C-B0AE-41786BB821F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00C28F45-6B2F-490C-B0AE-41786BB821F1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{00C28F45-6B2F-490C-B0AE-41786BB821F1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9E39FDE4-4176-4478-9F98-6BEA1A1A4846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E39FDE4-4176-4478-9F98-6BEA1A1A4846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E39FDE4-4176-4478-9F98-6BEA1A1A4846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E39FDE4-4176-4478-9F98-6BEA1A1A4846}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{00C28F45-6B2F-490C-B0AE-41786BB821F1} = {EFDEAB50-C515-446B-989C-200A0EFBA937}
+		{9E39FDE4-4176-4478-9F98-6BEA1A1A4846} = {DDF06E7A-AF64-4680-ADC3-A96DE2EB41C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5A4DC74-6F83-40CE-92F3-012631A4AD2D}
 	EndGlobalSection
 EndGlobal
