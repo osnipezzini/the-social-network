@@ -14,7 +14,12 @@ namespace TSN.APIServer.Controllers
         public async Task<UserResponse> Authenticate(LoginRequest request)
         {
             await Task.CompletedTask;
-            return null;
+            return new UserResponse
+            {
+                Id = Guid.NewGuid(),
+                Name = request.Username,
+                Email = $"{request.Username}@email.com"
+            };
         }
     }
 }
