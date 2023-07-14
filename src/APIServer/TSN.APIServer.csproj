@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Common\TSN.Common.csproj" />
     <ProjectReference Include="..\Domain\TSN.Domain.csproj" />
+    <ProjectReference Include="..\TSN.Identity\TSN.Identity.csproj" />
   </ItemGroup>
 
 </Project>
