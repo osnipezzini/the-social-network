@@ -6,9 +6,5 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\TSN.Identity\TSN.Identity.csproj" />
-	</ItemGroup>
-
 	
 </Project>

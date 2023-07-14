@@ -1,12 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace TSN.Common.Responses;
 
-namespace TSN.Common.Responses
-{
-    public record UserResponse
-    {
-    }
-}
+public record UserResponse(Guid Id, string Email, string Username, string Bio);
