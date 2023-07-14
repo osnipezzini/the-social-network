@@ -12,6 +12,9 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 
+app.MapGet("/auth", () => "Autenticado!")
+    .RequireAuthorization();
+
 app.MapControllers();
 
 app.Run();
